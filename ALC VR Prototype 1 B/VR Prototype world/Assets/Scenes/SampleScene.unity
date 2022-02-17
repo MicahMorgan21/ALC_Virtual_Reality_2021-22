@@ -206,7 +206,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 279016224}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 568597408}
@@ -902,7 +902,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 587179749}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.01, y: -0.15, z: -0.01}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 568597408}
@@ -1005,7 +1005,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 595847406}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.245, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6882409442994151773}
@@ -1480,7 +1480,7 @@ MonoBehaviour:
   m_EnableTurnLeftRight: 1
   m_EnableTurnAround: 1
   m_LeftHandSnapTurnAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Left Hand Snap Turn
       m_Type: 0
@@ -1490,9 +1490,9 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_RightHandSnapTurnAction:
-    m_UseReference: 0
+    m_UseReference: 1
     m_Action:
       m_Name: Right Hand Snap Turn
       m_Type: 0
@@ -1502,7 +1502,7 @@ MonoBehaviour:
       m_Interactions: 
       m_SingletonActionBindings: []
       m_Flags: 0
-    m_Reference: {fileID: 0}
+    m_Reference: {fileID: 83097790271614945, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!114 &860727573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1538,7 +1538,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 860727571}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.887428, y: 3.1856232, z: 2.0258002}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1967,15 +1967,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 538663968886195332, guid: 54d5b63b055944731a9431c50c9925fe, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 3.05
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 538663968886195332, guid: 54d5b63b055944731a9431c50c9925fe, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 538663968886195332, guid: 54d5b63b055944731a9431c50c9925fe, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 538663968886195332, guid: 54d5b63b055944731a9431c50c9925fe, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2029,15 +2029,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1019091713353768983, guid: 4a945da9f5f1e42cfa6f72b1dc07358f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1019091713353768983, guid: 4a945da9f5f1e42cfa6f72b1dc07358f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1019091713353768983, guid: 4a945da9f5f1e42cfa6f72b1dc07358f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.74
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1019091713353768983, guid: 4a945da9f5f1e42cfa6f72b1dc07358f, type: 3}
       propertyPath: m_LocalRotation.w
